@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Rafiu | Security Researcher & Developer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .code-font {
+            font-family: 'JetBrains Mono', monospace;
+        }
+    </style>
+</head>
+<body class="bg-[#0f172a] text-slate-200 antialiased selection:bg-cyan-500 selection:text-slate-900">
+
+    <!-- Header / Navigation -->
+    <header class="fixed top-0 z-50 w-full bg-[#0f172a]/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="code-font text-cyan-400 font-bold text-lg">&lt;rafiu.dev /&gt;</a>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-400">
+                <a href="#about" class="hover:text-cyan-400 transition-colors">About</a>
+                <a href="#skills" class="hover:text-cyan-400 transition-colors">Skills</a>
+                <a href="#projects" class="hover:text-cyan-400 transition-colors">Projects</a>
+                <a href="#experience" class="hover:text-cyan-400 transition-colors">Experience</a>
+            </nav>
+            <a href="mailto:your.email@example.com" class="code-font text-xs border border-cyan-500/30 text-cyan-400 px-4 py-2 rounded hover:bg-cyan-500/10 transition-all">
+                ~/contact
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center pt-16 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(6,182,212,0.08),transparent_50%)]"></div>
+        <div class="max-w-3xl mx-auto px-6 text-center z-10">
+            <p class="code-font text-cyan-400 text-sm mb-4">Hi, my name is</p>
+            <h1 class="text-5xl md:text-6xl font-bold text-slate-100 tracking-tight mb-4">
+                Abdul Rafiu Soomro
+            </h1>
+            <h2 class="text-2xl md:text-3xl font-semibold text-slate-400 mb-6">
+                Building Software & Securing Networks.
+            </h2>
+            <p class="text-slate-400 max-w-xl mx-auto mb-8 leading-relaxed">
+                Computer Science student specializing in system-level application development, custom environments, and defensive cybersecurity infrastructures.
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="#projects" class="bg-cyan-600 hover:bg-cyan-500 text-slate-950 font-semibold px-6 py-3 rounded text-sm transition-all shadow-lg shadow-cyan-500/10">
+                    View My Work
+                </a>
+                <a href="https://github.com" target="_blank" class="bg-slate-800 hover:bg-slate-700 text-slate-200 px-6 py-3 rounded text-sm transition-all border border-slate-700">
+                    <i class="fab fa-github mr-2"></i>GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 border-t border-slate-800/60 max-w-5xl mx-auto px-6">
+        <div class="grid md:grid-cols-3 gap-12 items-start">
+            <div class="md:col-span-2">
+                <h3 class="text-2xl font-bold text-slate-100 mb-6 flex items-center">
+                    <span class="code-font text-cyan-400 text-lg mr-2">01.</span> About Me
+                </h3>
+                <div class="text-slate-400 space-y-4 leading-relaxed">
+                    <p>
+                        I am a focused software developer and cybersecurity analyst with a deep interest in low-level systems engineering and architectural performance design. Whether building custom cross-platform tools or auditing network traffic, I prefer diving straight into structural mechanics.
+                    </p>
+                    <p>
+                        My background spans desktop application architecture using Java and backend simulation environments, alongside exploratory deployments in advanced network monitoring and automated configurations.
+                    </p>
+                </div>
+            </div>
+            <div class="bg-slate-800/40 border border-slate-700/50 rounded-xl p-6 code-font text-xs text-slate-400 shadow-inner">
+                <div class="flex space-x-2 mb-4">
+                    <span class="w-3 h-3 rounded-full bg-red-500/70"></span>
+                    <span class="w-3 h-3 rounded-full bg-yellow-500/70"></span>
+                    <span class="w-3 h-3 rounded-full bg-green-500/70"></span>
+                </div>
+                <p class="text-cyan-400 mb-1">// Environment Configurations</p>
+                <p class="mb-1"><span class="text-purple-400">OS_Primary:</span> Windows 11 Pro</p>
+                <p class="mb-1"><span class="text-purple-400">OS_Lab:</span> Arch Linux (Hyprland WM)</p>
+                <p class="mb-1"><span class="text-purple-400">Hardware:</span> Core i5 12th Gen / 16GB RAM</p>
+                <p><span class="text-purple-400">Shell:</span> Zsh / Bash</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-24 border-t border-slate-800/60 bg-slate-900/30">
+        <div class="max-w-5xl mx-auto px-6">
+            <h3 class="text-2xl font-bold text-slate-100 mb-12 flex items-center">
+                <span class="code-font text-cyan-400 text-lg mr-2">02.</span> Core Capabilities
+            </h3>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Box 1 -->
+                <div class="p-6 bg-slate-800/30 border border-slate-800 rounded-lg hover:border-slate-700/80 transition-all">
+                    <div class="w-10 h-10 rounded bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-4">
+                        <i class="fas fa-code text-lg"></i>
+                    </div>
+                    <h4 class="text-lg font-semibold text-slate-200 mb-2">Software Development</h4>
+                    <p class="text-sm text-slate-400 mb-4">Building multi-tier tools, user interfaces, and modular backend algorithms.</p>
+                    <div class="flex flex-wrap gap-2 code-font text-[11px] text-cyan-400">
+                        <span class="bg-slate-800 px-2 py-1 rounded">Java (Swing)</span>
+                        <span class="bg-slate-800 px-2 py-1 rounded">Python</span>
+                        <span class="bg-slate-800 px-2 py-1 rounded">C++</span>
+                    </div>
+                </div>
+                <!-- Box 2 -->
+                <div class="p-6 bg-slate-800/30 border border-slate-800 rounded-lg hover:border-slate-700/80 transition-all">
+                    <div class="w-10 h-10 rounded bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-4">
+                        <i class="fas fa-shield-halved text-lg"></i>
+                    </div>
+                    <h4 class="text-lg font-semibold text-slate-200 mb-2">Cybersecurity Research</h4>
+                    <p class="text-sm text-slate-400 mb-4">Developing behavioral logging simulators and real-time custom packet sniffers.</p>
+                    <div class="flex flex-wrap gap-2 code-font text-[11px] text-cyan-400">
+                        <span class="bg-slate-800 px-2 py-1 rounded">Network Sniffing</span>
+                        <span class="bg-slate-800 px-2 py-1 rounded">Logging Sim</span>
+                        <span class="bg-slate-800 px-2 py-1 rounded">Wireshark</span>
+                    </div>
+                </div>
+                <!-- Box 3 -->
+                <div class="p-6 bg-slate-800/30 border border-slate-800 rounded-lg hover:border-slate-700/80 transition-all">
+                    <div class="w-10 h-10 rounded bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-4">
+                        <i class="fas fa-terminal text-lg"></i>
+                    </div>
+                    <h4 class="text-lg font-semibold text-slate-200 mb-2">Systems & Architecture</h4>
+                    <p class="text-sm text-slate-400 mb-4">Configuring explicit window managers, hardware acceleration, and system optimization.</p>
+                    <div class="flex flex-wrap gap-2 code-font text-[11px] text-cyan-400">
+                        <span class="bg-slate-800 px-2 py-1 rounded">Linux Dotfiles</span>
+                        <span class="bg-slate-800 px-2 py-1 rounded">Hyprland / HyDE</span>
+                        <span class="bg-slate-800 px-2 py-1 rounded">Git Hooks</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-24 border-t border-slate-800/60 max-w-5xl mx-auto px-6">
+        <h3 class="text-2xl font-bold text-slate-100 mb-12 flex items-center">
+            <span class="code-font text-cyan-400 text-lg mr-2">03.</span> Featured Technical Projects
+        </h3>
+        <div class="grid md:grid-cols-2 gap-6">
+            <!-- Project 1 -->
+            <div class="bg-slate-800/20 border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:translate-y-[-4px] transition-all duration-300">
+                <div>
+                    <div class="flex justify-between items-center mb-6">
+                        <i class="far fa-folder text-3xl text-cyan-400/80"></i>
+                        <div class="space-x-3 text-slate-400 text-sm">
+                            <a href="#" class="hover:text-cyan-400"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-200 mb-2 hover:text-cyan-400 transition-colors">
+                        Exam Management System
+                    </h4>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-6">
+                        A secure, multi-tier Java enterprise application utilizing explicit GUI views via Java Swing. Engineered independent data channels and management portals for Administrator, Teacher, and Student roles to control core grading and testing mechanics securely.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 code-font text-xs text-slate-400">
+                    <span>Java</span>
+                    <span>Swing GUI</span>
+                    <span>Object-Oriented Design</span>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="bg-slate-800/20 border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:translate-y-[-4px] transition-all duration-300">
+                <div>
+                    <div class="flex justify-between items-center mb-6">
+                        <i class="far fa-folder text-3xl text-cyan-400/80"></i>
+                        <div class="space-x-3 text-slate-400 text-sm">
+                            <a href="#" class="hover:text-cyan-400"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-200 mb-2 hover:text-cyan-400 transition-colors">
+                        Network Monitoring Sniffer
+                    </h4>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-6">
+                        A technical script designed to map, display, and dissect localized network transactions. Captures raw packet data over targeted network interfaces to analyze inbound and outbound protocol parameters for defensive diagnostics.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 code-font text-xs text-slate-400">
+                    <span>Python</span>
+                    <span>Network Security</span>
+                    <span>Packet Analysis</span>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="bg-slate-800/20 border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:translate-y-[-4px] transition-all duration-300">
+                <div>
+                    <div class="flex justify-between items-center mb-6">
+                        <i class="far fa-folder text-3xl text-cyan-400/80"></i>
+                        <div class="space-x-3 text-slate-400 text-sm">
+                            <a href="#" class="hover:text-cyan-400"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-200 mb-2 hover:text-cyan-400 transition-colors">
+                        Behavioral Key Logging Simulator
+                    </h4>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-6">
+                        A security framework simulating keystroke logging mechanisms. Built strictly to demonstrate endpoint vulnerabilities, showing how input hooks collect background input events and how auditing tools prevent silent data exfiltration.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 code-font text-xs text-slate-400">
+                    <span>Cybersecurity</span>
+                    <span>Input Engineering</span>
+                    <span>Vulnerability Sim</span>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="bg-slate-800/20 border border-slate-800 rounded-xl p-6 flex flex-col justify-between hover:translate-y-[-4px] transition-all duration-300">
+                <div>
+                    <div class="flex justify-between items-center mb-6">
+                        <i class="far fa-folder text-3xl text-cyan-400/80"></i>
+                        <div class="space-x-3 text-slate-400 text-sm">
+                            <a href="#" class="hover:text-cyan-400"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-bold text-slate-200 mb-2 hover:text-cyan-400 transition-colors">
+                        Mobile Logic Engine (TicTacToe)
+                    </h4>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-6">
+                        An optimized lightweight mobile application featuring an state-evaluation matrix. Successfully built, verified, and distributed to the Amazon Appstore platform for live user performance testing.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 code-font text-xs text-slate-400">
+                    <span>Mobile Dev</span>
+                    <span>Logic Matrix</span>
+                    <span>Appstore Release</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience / Professional Affiliation Section -->
+    <section id="experience" class="py-24 border-t border-slate-800/60 max-w-3xl mx-auto px-6">
+        <h3 class="text-2xl font-bold text-slate-100 mb-12 flex items-center">
+            <span class="code-font text-cyan-400 text-lg mr-2">04.</span> Industrial Experience
+        </h3>
+        <div class="relative border-l-2 border-slate-800 pl-6 space-y-12">
+            <!-- Experience Item -->
+            <div class="relative">
+                <span class="absolute -left-[31px] top-1 bg-[#0f172a] border-2 border-cyan-500 rounded-full w-4 h-4"></span>
+                <h4 class="text-lg font-bold text-slate-200">Cyber Security Intern</h4>
+                <p class="code-font text-xs text-cyan-400 mt-1 mb-3">Arch Technologies</p>
+                <ul class="text-sm text-slate-400 space-y-2 list-disc list-inside leading-relaxed">
+                    <li>Conducted detailed configuration auditing and network transaction validation.</li>
+                    <li>Developed security simulation tools and analytics scripts to assess local attack vectors.</li>
+                    <li>Drafted formal cryptographic and defensive analysis engineering reports.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-slate-900 bg-slate-950/40 text-center text-xs text-slate-500 code-font">
+        <p>Designed & Built by Abdul Rafiu Soomro &copy; 2026</p>
+        <p class="mt-2 text-slate-600">Routed via DigitalPlat FreeDomain &bull; Managed by Cloudflare</p>
+    </footer>
+
+</body>
+</html>
